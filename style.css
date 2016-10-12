@@ -1,0 +1,90 @@
+body{
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: black;
+}
+.container{
+	width: 1000px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #DF9C28;
+	border-radius: 50px;
+}
+.question{
+	width: 850px;
+	height: 110px;
+	background-color: gray;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding-top: 50px;
+	border-radius: 0 0 50px 50px;
+	box-shadow: 0px 1em 0px rgba(255,255,255,0.5) inset;
+}
+.answer{
+	font-family: 'Roboto', sans-serif;
+	width: 700px;
+	height: 520px;
+	background-color: gray;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0 0 50px 50px;
+	padding-top: 34px;
+}
+.answerForm{
+	padding-left: 35px;
+	font-size: 25px;
+
+}
+form input{
+	margin-bottom: 20px;
+	font-size: 40px;
+	height: 20px;
+	width: 20px;
+}
+.questionNumber{
+	text-align: center;
+	font-size: 25px;
+}
+.nextButton{
+	height: 40px;
+	width: 120px;
+	background-color: white;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 10px;
+	margin-left: 0px;
+	margin-right: 200px;
+	font-size: 26px;
+	border-style: solid;
+	border-color: black;
+	float: right;
+}
+.nextButton:hover{
+	cursor: pointer;
+}
+.backButton{
+	height: 40px;
+	width: 120px;
+	background-color: white;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 10px;
+	margin-left: 200px;
+	margin-right: auto;
+	font-size: 26px;
+	border-style: solid;
+	border-color: black;
+	float: left;
+}
+.backButton:hover{
+	cursor: pointer;
+}
