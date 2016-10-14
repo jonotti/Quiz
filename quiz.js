@@ -49,10 +49,15 @@ function createQuestion(index) {
 
 function next() {
 	var spurning = document.getElementById('spurning');
-	teljari += 1
-	spurning.innerHTML = "";
-	createQuestion(teljari);
-}
+	if (teljari < (allQuestions.length -1 )){
+    teljari += 1
+    spurning.innerHTML = "";
+    createQuestion(teljari);
+  }
+  else{
+    spurning.InnerHTML = "";
+    spurning.innerHTML = '<h1>YOU HAVE FINISHED THE QUIZ!!!</h1>';
+  }
 
 shuffle(allQuestions);
 createQuestion(teljari);
