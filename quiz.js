@@ -34,7 +34,7 @@ var teljari = 0;
 function createQuestion(index) {
     var spurning = document.getElementById('spurning');
     var input = '';
-    spurning.innerHTML += '<h2>SPURNING ' + (index+1) + '</h2>';
+    spurning.innerHTML += '<h2>' + allQuestions[index].question + '</h2>';
     for (var i = 0; i < allQuestions[index].choices.length; i++) {
   var choice = document.createElement('div');
   choice.id = 'answer-' + i;
